@@ -1,24 +1,4 @@
   <html>
-  <style>
-      body, html {
-    height: 50%;
-    width:100%;
-    background-color: rgb(53, 53, 53);
-    /* align-items:center; */
-  } 
-  .bg {
-    /* The image used */
-    background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
-    background-color: rgb(53, 53, 53);
-    /* Half height */
-    height: 100%;  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align:center;
-    
-  </style>
   <div class="bg">
             <H1 class="display-2">Welcome to my Portfolio</H1>
             <p class="top_p" >Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
