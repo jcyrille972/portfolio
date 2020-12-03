@@ -16,10 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+    secure_asset('css/style.css');
+    secure_asset('css/app.css');
 });
 Route::get('about', function(){
     return view('about');
+    secure_asset('css/style.css');
+    secure_asset('css/app.css');
 }); 
 Route::get('project', function(){
+    secure_asset('css/style.css');
+    secure_asset('css/app.css');
     return view('project');
 }); 
