@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-      <title>Jérémie CYRILLE</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,12 +8,10 @@
         <!-- Bootstrap CSS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        
+        <title>Jérémie CYRILLE</title>
     </head>
     <body>
-      
-        <nav class="navbar navbar bg-dark">
+       <nav class="navbar navbar bg-dark">
             <div class="container-fluid">
                 <div class="navbar-header">            
             <a class="navbar-brand" href="{{URL::to('/')}}">Jeremie CYRILLE</a>
@@ -31,17 +28,36 @@
                 </li>
               </ul>
             </div>
-          </nav>       
-        <div class="bg">
-            <H1 class="display-2">Welcome to my Portfolio</H1>
-            <p class="top_p" >Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
-             This is the summary of all my Projects and skills I do and learn.<br>
-               I give also all infomation about my career.<br>
-            <strong>Contact me on:</strong><br><br>
-            <a href="https://discord.com/"><i class="fab fa-discord fa-4x"></i></a>
-            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-cyrille-279b36200/"><i class="fab fa-linkedin fa-4x"></i></a>
-              <a href="https://github.com/jcyrille972"><i class="fab fa-github fa-4x" ></i></a>
-             <a href="https://www.instagram.com/jeremlands/"><i class="fab fa-instagram-square fa-4x" ></i></a></p>
-            </div>
-    </body>
+          </nav>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Description</td>
+            <td>creation date </td>
+            <td>late update</td>
+            <td>city</td>
+            <td>enabled/disable</td>
+            <td>delete</td>
+        </tr>
+    </thead>
+        @foreach($Project as $key => $value)
+        <tr>
+            <td>{{ $value->title }}</td>
+            <td>{{ $value->description }}</td>
+            <td>{{ $value->create_date }}</td>
+            <td>{{ $value->create_update}}</td>
+            <td>{{ $value->enabled}}</td>
+            <td>
+             <a class="btn btn-small btn-success" href="{{ URL::to('admin/update/' . $value->id) }}">Edit</a>
+            </td>
+            <td>
+             <a class="btn btn-small btn-success" href="{{ URL::to('admin/delete/' . $value->id) }}">delete</a>  
+            </td>
+        </tr>
+        
+
+        @endforeach
+</body>
 </html>

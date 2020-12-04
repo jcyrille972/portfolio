@@ -14,9 +14,9 @@ class Me extends Migration
      */
     public function up()
     {
-        Schema::create('me',function (Blueprint $table){
+        Schema::create('mes',function (Blueprint $table){
         $table->id();
-        $table->string('fistname');
+        $table->string('firstname');
         $table->string('lastname');
         $table->string('email');
         $table->string('phone');
@@ -24,7 +24,7 @@ class Me extends Migration
         $table->string('city');
         $table->string('country');
         $table->date('birth_date');
-        $table->string('description');
+        $table->text('description');
 
         });//
     }
@@ -36,6 +36,6 @@ class Me extends Migration
      */
     public function down()
     {
-        Schema::drop('me');
+        Schema::drop('mes');
     }
 }

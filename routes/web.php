@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,19 +13,21 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', function () {
     return view('welcome');
-    secure_asset('css/style.css');
-    secure_asset('css/app.css');
 });
 Route::get('about', function(){
     return view('about');
-    secure_asset('css/style.css');
-    secure_asset('css/app.css');
 }); 
 Route::get('project', function(){
-    secure_asset('css/style.css');
-    secure_asset('css/app.css');
     return view('project');
 }); 
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::match(['get', 'post'], 'index', [AdminController::class, 'index'])->name('admin.index');
+    Route::match(['get', 'post'], 'create', [AdminController::class, 'create'])->name('admin.create');
+    Route::group(['prefix' => 'delete'], function () {
+        Route::match(['get', 'post'], '{id}', [AdminController::class, 'destroy'])->name('admin.delete');
+    });
+});
