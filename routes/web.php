@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\AboutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,8 @@ Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('about', function(){
-    return view('about');
-}); 
+Route::get('about',[AboutController::class,'test']);
+
 Route::get('project', function(){
     return view('project');
 }); 
