@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ProjectController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,9 +20,7 @@ Route::get('/', function () {
 });
 Route::get('about',[AboutController::class,'test']);
 
-Route::get('project', function(){
-    return view('project');
-}); 
+Route::get('project',[ProjectController::class,'test']); 
 
 Route::group(['prefix' => 'admin'], function () {
     Route::match(['get', 'post'], 'index', [AdminController::class, 'index'])->name('admin.index');
