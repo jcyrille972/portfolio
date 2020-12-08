@@ -73,11 +73,11 @@ H1{
   }
   .title-s {
     font-weight: 600;
-    color: #1e1e1e;
+    color: white;
     font-size: 1.1rem;
   }
   .skill-mf span {
-    color:black;
+    color:white;
   }
   
   .skill-mf .progress {
@@ -108,7 +108,7 @@ H1{
     bottom: -12px;
   }
   div{
-      color: black;
+      color: white;
   }
 .containerTab {
   display:flex;
