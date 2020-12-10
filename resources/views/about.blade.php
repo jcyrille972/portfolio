@@ -44,10 +44,12 @@
                           </div>
                           <div class="col-sm-6 col-md-7">
                             <div class="about-info">
-                              <p><span class="title-s">Name: </span> <span>Jérémie CYRILLE</span></p>
+                            @foreach($me as $key => $value)
+                              <p><span class="title-s">Name: </span> <span>{{ $value->firstname }} {{ $value->lastname }}</span></p>
                               <p><span class="title-s">Profile: </span> <span>CS student</span></p>
-                              <p><span class="title-s">Email: </span> <span>jeremie.cyrille@icloud.com</span></p>
-                              <p><span class="title-s">Phone: </span> <span>+33 07 64 84 56 88</span></p>
+                              <p><span class="title-s">Email: </span> <span>{{ $value->email }}</span></p>
+                              <p><span class="title-s">Phone: </span> <span>{{ $value->phone }}</span></p>
+                              @endforeach
                             </div>
                           </div>
                         </div>
@@ -82,21 +84,7 @@
                               About me
                             </h5>
                           </div>
-                          <p class="lead">
-                          Bonjour, je m'appelle Jérémie CYRILLE.Je viens d’avoir 20 ans, et je suis passionné d’informatique.<br>
-                          Je suis originaire de la Martinique, et j’ai décidé dès le début de mon lycée passer un bac S (obtenu avec mention) pour poursuivre des études en informatique, à l’international.
-
-                          </p>
-                          <p class="lead">
-                          Dès 17 ans, j’ai intégré l’Université du Québec et de Trois-Rivières pour obtenir un diplôme en Informatique (Génie électrique et informatique, puis baccalauréat informatique).
-La crise engendrée par la COVID-19 a désorganisé l’université québécoise, ce qui m’a amené à chercher un autre cursus pour compléter les 2 années d’études validées au Québec.
-
-                          </p>
-                          <p class="lead">
-                          J’ai choisi l’ETNA, qui m’a séduit par l’alliance d’une formation théorique robuste et de mise en pratique professionnelle, immédiate et intensive de cette formation.
-J’ai donc rejoint l’ETNA pour finaliser l’obtention de mon Bachelor en Computing Science,  que je compléterai par un Master dans le même domaine.
-
-                          </p>
+                          {{$value->description}}
                         </div>
                       </div>
                     </div>

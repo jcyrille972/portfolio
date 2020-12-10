@@ -13,11 +13,10 @@ class Project extends Migration
      */
     public function up()
     {
-        Schema::create('Project',function (Blueprint $table){
+        Schema::create('Projects',function (Blueprint $table){
             $table->id();
             $table->string('title');
             $table->string('description');
-            $table->mediumText('picture')->nullable();
             $table->date('create_date');
             $table->date('create_update');
             $table->boolean('enabled');
@@ -31,6 +30,6 @@ class Project extends Migration
      */
     public function down()
     {
-        Schema::drop('Project');
+        Schema::drop('Projects');
     }
 }
