@@ -29,10 +29,10 @@ Route::group(['prefix' => 'admin'], function () {
         Route::match(['get', 'post'], '{id}', [AdminController::class, 'destroy'])->name('admin.delete');
     });
 });
-Route::get('about', function(){
-    return view('about');
+// Route::get('about', function(){
+//     return view('about');
 
-}); 
-Route::get('project', function(){
-    return view('project');
-}); 
+// }); 
+// Route::get('project', function(){
+//     return view('project');
+// }); 
