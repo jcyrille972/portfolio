@@ -52,13 +52,13 @@
   </li>
   <li>
     <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-cyrille-279b36200/">
-      <i class="fab fa-github fa-2x" ></i>
+      <i class="fab fa-linkedin fa-2x" ></i>
       <span> - linkedin</span>
     </a>
   </li>
   <li>
     <a href="https://github.com/jcyrille972">
-      <i class="fab fa-linkedin fa-2x"></i>
+      <i class="fab fa-github fa-2x"></i>
       <span> - github</span>
     </a>
   </li>
