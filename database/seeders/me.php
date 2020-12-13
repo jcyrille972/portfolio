@@ -15,15 +15,15 @@ class me extends Seeder
     public function run()
     {
         DB::table('mes')->insert([
-            'firstname'=>'Jérémie',
-            'lastname'=>'Cyrille',
-            'email'=>'jeremie.cyrille@icloud.com',
-            'phone'=>'+33 07 64 84 56 88',
-            'adress'=>'2bis rur lamé',
-            'city'=>'Saint Germains en Lay',
-            'country'=>'France',
-            'birth_date'=>'2000/12/07',
-            'description'=>'
+            'firstname' => 'Jérémie',
+            'lastname' => 'Cyrille',
+            'email' => 'jeremie.cyrille@icloud.com',
+            'phone' => '+33 07 64 84 56 88',
+            'adress' => '2bis rur lamé',
+            'city' => 'Saint Germains en Lay',
+            'country' => 'France',
+            'birth_date' => '2000/12/07',
+            'description' => '
             Hello, my name is Jérémie CYRILLE, I have just turned 20, and I am passionate about computers.
             I am from Martinique, and I decided at the start of my high school to take a bac S (obtained with honors) to pursue studies in computer science, internationally.
 

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
@@ -18,9 +19,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $Project= Project::all();
+        $Project = Project::all();
         return View::make('AdminIndex')
-            ->with('Project', $Project);//
+            ->with('Project', $Project); //
     }
 
     /**
@@ -43,16 +44,15 @@ class AdminController extends Controller
                 return Redirect::back()->withErrors($validator);
             }
             //insert into db
-            $Project= new Project();
-            $Project->title= $request->Input('title');
-            $Project->description= $request->Input('description');
-            $Project->create_date= $request->Input('create_date');
-            $Project->create_update= $request->Input('create_update');
-            $Project->enabled= $request->Input('enabled');
+            $Project = new Project();
+            $Project->title = $request->Input('title');
+            $Project->description = $request->Input('description');
+            $Project->create_date = $request->Input('create_date');
+            $Project->create_update = $request->Input('create_update');
+            $Project->enabled = $request->Input('enabled');
             $Project->save();
         }
         return View::make('formula');
-
     }
 
     /**
@@ -108,8 +108,8 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        $entreprise= Project::find($id);
+        $entreprise = Project::find($id);
         $entreprise->delete($entreprise);
-        return Redirect::to('admin/index');//
+        return Redirect::to('admin/index'); //
     }
 }

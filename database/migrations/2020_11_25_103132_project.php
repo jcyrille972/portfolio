@@ -13,7 +13,7 @@ class Project extends Migration
      */
     public function up()
     {
-        Schema::create('Projects',function (Blueprint $table){
+        Schema::create('Projects', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->string('description');

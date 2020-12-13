@@ -14,13 +14,14 @@ use App\Http\Controllers\ProjectController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('about',[AboutController::class,'test']);
+Route::get('about', [AboutController::class, 'test']);
 
-Route::get('project',[ProjectController::class,'test']); 
+Route::get('project', [ProjectController::class, 'test']);
 
 Route::group(['prefix' => 'admin'], function () {
     Route::match(['get', 'post'], 'index', [AdminController::class, 'index'])->name('admin.index');
