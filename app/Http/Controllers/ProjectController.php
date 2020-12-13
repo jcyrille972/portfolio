@@ -11,8 +11,8 @@ use Symfony\Component\HttpFoundation\Session\Session;
 class ProjectController extends Controller
 {
    public function test(){
-        $Project= Project::all();
-        return View::make('project')
-        ->with('Project', $Project);
+       // $Project= Project::all();
+        return View::make('project');
+        //->with('Project', $Project);
    }
 }
