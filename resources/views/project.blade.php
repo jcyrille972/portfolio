@@ -8,7 +8,7 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/project.css') }}" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link href="{{ asset('github-widget\github-widget.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('github-widget-master\github-widget.css') }}" rel="stylesheet" type="text/css" />
         <title>Jérémie CYRILLE</title>
     </head>
     <body>
@@ -31,7 +31,7 @@
             </div>
           </nav>
           <div class="github-widget" data-user="jcyrille972"></div>
-          <script src="{{ asset('github-widget/github-widget.min.js') }}"></script>
+          <script src="{{ asset('github-widget-master/github-widget.min.js') }}"></script>
 
 </body>
 </html>     

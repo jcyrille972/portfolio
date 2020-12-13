@@ -1,6 +1,7 @@
 .gw-repo-outer {
   float: left;
   width: 50%;
+  color: white; 
 }
 .gw-repo-outer:nth-child(2n + 1) {
   clear: left;
@@ -39,7 +40,7 @@
 }
 .gw-lang {
   font-size: 0.8em;
-  color: #777;
+  color: rgb(255, 251, 2);
 }
 .gw-clearer {
   clear: left;
