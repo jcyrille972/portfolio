@@ -1,0 +1,209 @@
+.about-mf .box-shadow-full {
+    background-color:rgb(58, 64, 66);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+  
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+  .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+  
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+  .title-s {
+    font-weight: 600;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .skill-mf span {
+    color:white;
+  }
+  
+  .skill-mf .progress {
+    background-color: rgb(31, 30, 30);
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+    height: .7rem;
+    background-color: #f8df1b;
+  }
+  .title-box-2 {
+    margin-bottom: 3rem;
+  }
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .title-left::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #fbff00;
+    width: 100px;
+    bottom: -12px;
+  }
+.containerTab {
+  display:flex;
+} 
+
+/* resize images */
+.containerTab img {
+  
+    display:flex;
+    width: 85%;
+    height:small;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mosaiqueTable{
+        /* The image used */
+        background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
+        background-color:  rgb(36, 39, 41);
+        /* Half height */
+        height: 100%;  
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    width:100%;
+    /* display:flex;  */
+    /* justify-content: center; */
+    text-align: center;
+
+}
+.headerTab{
+  text-align: center;
+
+}
+.mosaiqueTable p{
+  padding-top: 30px;
+  text-align: center;
+  color: #f2c87b;
+}
+.JoinMe{
+          background-color: rgb(53, 53, 53);
+          height: 100%;  
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      width:100%;
+      /* display:flex;  */
+      /* justify-content: center; */
+      text-align: center;
+}
+
+.stepper {
+  margin: 30px 15px
+}
+
+.stepper .step {
+  position: relative;
+  padding: 0 30px;
+  margin-bottom: 30px;
+  border-left: 1px solid #bdbdbd
+}
+
+.stepper .step:last-of-type {
+  border: none
+}
+
+.stepper .step .step-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: -18px;
+  height: 36px;
+  width: 36px;
+  z-index: 1;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background: #f2c87b;;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px #e0e0e0
+}
+
+.stepper .step .step-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px
+}
+.test{
+  padding-top: 30px;
+text-align: center;
+color: #f2c87b;
+}
+.section-quaternary{
+
+  text-align: center;
+  width: 100%;
+}
+.section-quaternary a{
+  text-size-adjust: 2.5rem;
+  text-transform: uppercase;
+	background: linear-gradient(to right, #ffee00 0%, #047fd1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
+div{
+  color: white;
+  
+}
+body{
+    background-color:  rgb(36, 39, 41);
+}
+#about{
+  margin-top: 80px;
+}
+.flex-center {
+  width: 100%;
+  min-height: 50vh;
+  
+  background: #000;
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.project{
+  width: 20%;
+  text-align: center;
+  align-items: center;
+}
+.project img{
+  width: 70%;
+}
