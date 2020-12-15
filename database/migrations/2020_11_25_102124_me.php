@@ -14,19 +14,18 @@ class Me extends Migration
      */
     public function up()
     {
-        Schema::create('mes',function (Blueprint $table){
-        $table->id();
-        $table->string('firstname');
-        $table->string('lastname');
-        $table->string('email');
-        $table->string('phone');
-        $table->string('adress');
-        $table->string('city');
-        $table->string('country');
-        $table->date('birth_date');
-        $table->text('description');
-
-        });//
+        Schema::create('mes', function (Blueprint $table) {
+            $table->id();
+            $table->string('firstname');
+            $table->string('lastname');
+            $table->string('email');
+            $table->string('phone');
+            $table->string('adress');
+            $table->string('city');
+            $table->string('country');
+            $table->date('birth_date');
+            $table->text('description');
+        }); //
     }
 
     /**
