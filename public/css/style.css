@@ -2,7 +2,7 @@ body,
 html {
     height: 100%;
     width: 100%;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(36, 39, 41);
     /* align-items:center; */
     font-family: "Roboto Condensed", sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ html {
 .bg {
     /* The image used */
     background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(36, 39, 41);
     /* Half height */
     height: 90%;
     /* Center and scale the image nicely */
@@ -39,6 +39,13 @@ H1 {
     height: 0%;
     text-align: center;
     color: #f2c87b;
+
+}
+
+.bg ul {
+    position: absolute;
+    bottom: 50px;
+
 }
 .about-mf .box-shadow-full {
     background-color: rgb(89, 89, 89);
@@ -281,7 +288,9 @@ div {
     display: block;
     width: 210px;
     height: 80px;
-    background: rgb(68, 66, 66);
+
+    background: rgb(58, 64, 66);
+
     text-align: left;
     padding-left: 20px;
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
@@ -295,7 +304,7 @@ div {
     left: -20px;
     height: 100%;
     width: 20px;
-    background: #b1b1b1;
+    background: rgb(58, 64, 66);
     transform: 0.5s;
     transform: rotate(0deg) skewY(-45deg);
 }
@@ -306,7 +315,7 @@ div {
     left: -10px;
     height: 20px;
     width: 100%;
-    background: #b1b1b1;
+    background: rgb(58, 64, 66);
     transform: 0.5s;
     transform: rotate(0deg) skewX(-45deg);
 }

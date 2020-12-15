@@ -8,7 +8,8 @@
   <link rel="icon" href="{{ asset('img/inconheader.png')}}">
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+  <link href="{{ asset('css/about.css') }}" rel="stylesheet">
   <title>Jérémie CYRILLE</title>
 </head>
 
@@ -30,7 +31,7 @@
         </li>
       </ul>
     </div>
-  </nav>
+  </nav> @foreach($me as $key => $value)
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
       <div class="row">
@@ -46,12 +47,12 @@
                   </div>
                   <div class="col-sm-6 col-md-7">
                     <div class="about-info">
-                      @foreach($me as $key => $value)
+
                       <p><span class="title-s">Name: </span> <span>{{ $value->firstname }} {{ $value->lastname }}</span></p>
                       <p><span class="title-s">Profile: </span> <span>CS student</span></p>
                       <p><span class="title-s">Email: </span> <span>{{ $value->email }}</span></p>
                       <p><span class="title-s">Phone: </span> <span>{{ $value->phone }}</span></p>
-                      @endforeach
+
                     </div>
                   </div>
                 </div>
@@ -82,14 +83,15 @@
                       About me
                     </h5>
                   </div>
-                  {{$value->description}}
+                  {!! $value->description !!}
                 </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> @endforeach
   </section>
   <section class="mosaiqueTable">
     <div>
