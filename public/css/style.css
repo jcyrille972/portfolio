@@ -8,17 +8,23 @@ html {
     margin: 0;
     padding: 0;
 }
-.bg {
+.bg2 {
     /* The image used */
-    display: block;
+    
     background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
     background-color: rgb(36, 39, 41);
     /* Half height */
-    height: 90%;
+    height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg1{
+    display: block;
+    height: 90%;
+    /* Center and scale the image nicely */
+
 }
 ::selection {
     background-color: #c3cfe2;
@@ -50,7 +56,7 @@ H1 {
     top: -15%;
     left: 50%;
     text-align: center;
-    
+    margin-top: 15px;
     align-items: center;
     transform: translate(-50%, -50%);
     width: 50%;
@@ -58,6 +64,7 @@ H1 {
 
 
     .contact ul{
+        
         display: inline-block;
         position: relative;
         align-items: center;
@@ -126,7 +133,7 @@ H1 {
  @media screen and (max-width: 640px){
     .contact {
             position: relative;
-            margin-top: 25%;
+            margin-top: 30%;
             left: 50%;
             align-items: center;
             transform: translate(-50%, -50%);
@@ -139,7 +146,20 @@ H1 {
   @media screen and (max-width: 340px){
     .contact {
         position: relative;
-        margin-top: 25%;
+        margin-top: 30%;
+        left: 50%;
+        align-items: center;
+        transform: translate(-50%, -50%);
+    width: 350px;
+}
+    .contact ul li{
+        margin:15px;
+    }
+}
+@media screen and (max-width: 320px){
+    .contact {
+        position: relative;
+        margin-top: 40%;
         left: 50%;
         align-items: center;
         transform: translate(-50%, -50%);

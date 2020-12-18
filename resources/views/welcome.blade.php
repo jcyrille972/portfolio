@@ -33,8 +33,8 @@
         </li>
       </ul>
     </div>
-  </nav>
-  <div class="bg">
+  </nav><div class="bg2">
+  <div class="bg1">
     <H1 class="display-2">Welcome to my Portfolio</H1>
       <p class="top_p">Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
       This is the summary of all my Projects and skills I do and learn.<br>
@@ -64,7 +64,7 @@
         </li> 
           </ul>
       </div>
-   
+   </div>
   
 </body>
 
