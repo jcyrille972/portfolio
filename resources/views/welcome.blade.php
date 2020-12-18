@@ -33,38 +33,39 @@
         </li>
       </ul>
     </div>
-  </nav>
-  <div class="bg">
+  </nav><div class="bg2">
+  <div class="bg1">
     <H1 class="display-2">Welcome to my Portfolio</H1>
-    <p class="top_p">Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
+      <p class="top_p">Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
       This is the summary of all my Projects and skills I do and learn.<br>
       I give also all infomation about my career.<br>
       <strong>Contact me on:</strong><br><br>
-      <ul>
-        <li>
-          <a href=https://discord.com/"> <i class="fab fa-discord fa-2x"></i>
-            <span> - citizenlab</span>
+    </div>
+      <div class="contact">
+          <ul>
+        <li class="discord">
+          <a href=https://discord.com/"> <i class="fab fa-discord fa-2x icon-3d"></i>
           </a>
         </li>
-        <li>
+        <li class="linkedin">
           <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-cyrille-279b36200/">
-            <i class="fab fa-github fa-2x"></i>
-            <span> - linkedin</span>
+             <i class="fab fa-linkedin fa-2x icon-3d"></i>
           </a>
         </li>
-        <li>
+        <li class="github">
           <a href="https://github.com/jcyrille972">
-            <i class="fab fa-linkedin fa-2x"></i>
-            <span> - github</span>
+           <i class="fab fa-github fa-2x icon-3d"></i>
           </a>
         </li>
-        <li>
+        <li class="instagram">
           <a href="https://www.instagram.com/jeremlands/">
-            <i class="fab fa-instagram-square fa-2x"></i>
-            <span> - Instagram</span>
+            <i class="fab fa-instagram-square fa-2x icon-3d"></i>
           </a>
-        </li>
-  </div>
+        </li> 
+          </ul>
+      </div>
+   </div>
+  
 </body>
 
 </html>
