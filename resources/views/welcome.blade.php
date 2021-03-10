@@ -10,11 +10,8 @@
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/project.scss') }}" rel="text/plain">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="{{ asset('js/jquery-3.6.0.min.js')}}"></script>
-  <script src="{{ asset('js/style.js')}}"></script>
-
 </head>
 
 <body>
@@ -76,7 +73,6 @@
       </ul>
     </div>
   </div>
-  <div id='loading_wrap'>Loading, please wait.</div>
 </body>
 
 </html>

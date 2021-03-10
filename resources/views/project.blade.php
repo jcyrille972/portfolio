@@ -10,7 +10,6 @@
   <link href="{{ asset('css/project.css') }}" rel="stylesheet">
   <link href="{{ asset('css/project.scss') }}" rel="text/plain">
   <script src="{{ asset('js/jquery-3.6.0.min.js')}}"></script>
-  <script src="{{ asset('js/style.js')}}"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Jérémie CYRILLE</title>
 
@@ -111,26 +110,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-
-    <div id='loading_wrap'><svg width="0" height="0">
-        <filter id="gooey-black-hole">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur" />
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 50 -16" result="goo" />
-        </filter>
-      </svg>
-      <div class="black-hole">
-        <ul class="gooey-container">
-          <li class="bubble"></li>
-          <li class="bubble"></li>
-          <li class="bubble"></li>
-          <li class="bubble"></li>
-          <li class="bubble"></li>
-          <li class="bubble"></li>
-        </ul>
-      </div>
-      Loading, please wait.
     </div>
 </body>
 

@@ -9,9 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/about.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/project.scss') }}" rel="text/plain">
   <script src="{{ asset('js/jquery-3.6.0.min.js')}}"></script>
-  <script src="{{ asset('js/style.js')}}"></script>
   <title>Jérémie CYRILLE</title>
 </head>
 
@@ -229,7 +227,6 @@
       </div>
     </div>
   </section>
-  <div id='loading_wrap'>Loading, please wait.</div>
 </body>
 
 </html>

@@ -55,25 +55,13 @@ H1 {
     color: #999999;
 }
 
-.contact {
-    display: inline-block;
-    position: relative;
-    top: -15%;
-    left: 50%;
-    text-align: center;
-    margin-top: 15px;
-    align-items: center;
-    transform: translate(-50%, -50%);
-    width: 50%;
-}
 
 
     .contact ul{
         
-        display: inline-block;
-        position: relative;
-        align-items: center;
-        list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .contact ul li {
         width: 75px;
