@@ -14,10 +14,11 @@
   .box-shadow-full {
     padding: 3rem 1.25rem;
     position: relative;
-    background-color: #fff;
     margin-bottom: 3rem;
     z-index: 2;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-image: url("../img/freeimg_82104617freejpg850.jpg");
+    background-size: cover;
+    
   }
   .about-mf .about-img {
     margin-bottom: 2rem;
@@ -28,11 +29,11 @@
   }
   .title-s {
     font-weight: 600;
-    color: white;
+    color: #999999;
     font-size: 1.1rem;
   }
   .skill-mf span {
-    color:white;
+    color:#999999;
   }
   
   .skill-mf .progress {
@@ -58,7 +59,7 @@
     content: '';
     position: absolute;
     height: 3px;
-    background-color: #fbff00;
+    background-color: #1f1f1f;
     width: 100px;
     bottom: -12px;
   }
@@ -76,9 +77,9 @@
     justify-content: center;
     text-align: center;
 }
-.mosaiqueTable{
+html,body{
         /* The image used */
-        background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
+        background-image: url("../img/4706201.jpg");
         background-color:  rgb(36, 39, 41);
         /* Half height */
         height: 100%;  
@@ -99,7 +100,7 @@
 .mosaiqueTable p{
   padding-top: 30px;
   text-align: center;
-  color: #f2c87b;
+  color: #292929;
 }
 .JoinMe{
           background-color: rgb(53, 53, 53);
@@ -156,7 +157,7 @@
 .test{
   padding-top: 30px;
 text-align: center;
-color: #f2c87b;
+color: #1b1b1b;
 }
 .section-quaternary{
 
@@ -170,15 +171,10 @@ color: #f2c87b;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 } 
-div{
-  color: white;
-  
-}
-body{
-    background-color:  rgb(36, 39, 41);
-}
+
 #about{
-  margin-top: 80px;
+  margin-top: 40px;
+  color: #e0e0e0;
 }
 .flex-center {
   width: 100%;
@@ -206,4 +202,28 @@ body{
 }
 .project img{
   width: 70%;
+}
+button{
+  margin-left: 30px;
+  border-radius: 2em;
+  background-color: #272727;
+  border-bottom: none;
+  border-color: #272727;
+}
+.nav-item :hover{
+  border-radius: 2em;
+  border-bottom: none;
+  border-color: aliceblue;
+  background-color: aliceblue;
+}
+span{
+  color: rgb(255, 255, 255);
+}
+.loading_wrap{
+  position:fixed; 
+  height:100%; 
+  width:100%; 
+  overflow:hidden; 
+  top:0; 
+  left:0;
 }

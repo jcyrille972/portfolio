@@ -13,20 +13,26 @@
 </head>
 
 <body>
-  <nav class="navbar navbar bg-dark">
+<nav class="navbar navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="{{URL::to('/')}}">Jeremie CYRILLE</a>
       </div>
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="{{URL::to('/')}}">Home <span class="sr-only">(current)</span></a>
+          <button type="button">
+            <a class="nav-link" href="{{URL::to('/')}}">Home <span class="sr-only">(current)</span></a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{URL::to('/about')}}">About me</a>
+          <button type="button">
+            <a class="nav-link" href="{{URL::to('/about')}}">About me</a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{URL::to('/project')}}">Project</a>
+          <button type="button">
+            <a class="nav-link" href="{{URL::to('/project')}}">Project</a>
+          </button>
         </li>
       </ul>
     </div>

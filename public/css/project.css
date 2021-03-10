@@ -1,9 +1,19 @@
 body,
 html {
+    background-image: url("../img/4706201.jpg");
+    background-color: #2c343f;
+    /* Half height */
     height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    background-color: rgb(53, 53, 53);
-    /* align-items:center; */
+    /* display:flex;  */
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 .work-box {
     margin-bottom: 3rem;
@@ -56,3 +66,45 @@ html {
 .w-title {
     font-size: 1.2rem;
 }
+button {
+    margin-left: 30px;
+    border-radius: 2em;
+    background-color: #272727;
+    border-bottom: none;
+    border-color: #272727;
+}
+.nav-item :hover {
+    border-radius: 2em;
+    border-bottom: none;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+.loading_wrap{
+    position:fixed; 
+    height:100%; 
+    width:100%; 
+    overflow:hidden; 
+    top:0; 
+    left:0;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-self: center;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+  }
+  .test{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  text-align: center;
+  color: #1b1b1b;
+  }
+  .card{
+      margin: 0%;
+  }
