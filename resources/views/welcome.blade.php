@@ -16,7 +16,6 @@
 
 <body>
 </script>
-<div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0;'>Loading, please wait.</div>
   <nav class="navbar navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
