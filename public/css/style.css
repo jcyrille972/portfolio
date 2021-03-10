@@ -7,12 +7,17 @@ html {
     font-family: "Roboto Condensed", sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("../img/4706201.jpg");
+    background-color: rgb(36, 39, 41);
+    /* Half height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg2 {
-    /* The image used */
-    
-    background-image: url("https://www.vippng.com/png/full/361-3612977_website-background-png-tech-background-image-for-website.png");
-    background-color: rgb(36, 39, 41);
+
     /* Half height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -47,7 +52,7 @@ H1 {
     height: 0%;
     margin-bottom: 0%;
     text-align: center;
-    color: #f2c87b;
+    color: #999999;
 }
 
 .contact {
@@ -78,12 +83,15 @@ H1 {
         text-align: center;
         cursor: pointer;
         border-radius: 50%;
-        border: 5px solid #D8E2DC;
+        border: 5px solid #272727;
         float: left;
         transition: all 0.5s ease;
       }
+      i{
+        color: #272727;
+      }
     .contact ul li .fa {
-        color: #D8E2DC;
+        color: #272727;
         margin-top: 20px;
         transition: all 0.5s ease;
       }
@@ -168,4 +176,25 @@ H1 {
     .contact ul li{
         margin:15px;
     }
+}
+  button{
+    margin-left: 30px;
+    border-radius: 2em;
+    background-color: #272727;
+    border-bottom: none;
+    border-color: #272727;
+  }
+  .nav-item :hover{
+    border-radius: 2em;
+    border-bottom: none;
+    border-color: aliceblue;
+    background-color: aliceblue;
+  }
+  .loading_wrap{
+    position:fixed; 
+    height:100%; 
+    width:100%; 
+    overflow:hidden; 
+    top:0; 
+    left:0;
 }
