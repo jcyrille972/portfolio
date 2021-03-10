@@ -10,7 +10,8 @@
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script defer src="{{asset('js/fontawesome-free-5.15.2-web/css/all.css')}}"></script>
+  <script defer src="{{asset('js/fontawesome-free-5.15.2-web/js/all.js')}}"></script>
   <script src="{{ asset('js/jquery-3.6.0.min.js')}}"></script>
 </head>
 
