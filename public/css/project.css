@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body,
 html {
     background-image: url("../img/4706201.jpg");
@@ -107,4 +109,12 @@ button {
   }
   .card{
       margin: 0%;
+  }
+  nav, .test p{
+    font-family: 'Leckerli One', cursive;
+  }
+  .test p{
+    background: linear-gradient(to right, #887f71 0%, #033bb4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
