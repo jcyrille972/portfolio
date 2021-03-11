@@ -100,7 +100,7 @@
               <div class="row">
                 <div class="col-sm-6 col-md-5">
                   <div class="about-img">
-                    <img src="{{asset('img/LNA.png')}}" class="img-fluid rounded b-shadow-a" alt="">
+                    <img src="{{asset('img/UHXzdngc_400x400.jpeg')}}" class="img-fluid rounded b-shadow-a" alt="">
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-7">
