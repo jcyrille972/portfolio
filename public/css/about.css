@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 .about-mf .box-shadow-full {
-    background-color:rgb(58, 64, 66);
+    background-color:rgb(0, 0, 0);
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
@@ -29,23 +31,9 @@
   }
   .title-s {
     font-weight: 600;
-    color: #999999;
+    color: #000000;
     font-size: 1.1rem;
-  }
-  .skill-mf span {
-    color:#999999;
-  }
-  
-  .skill-mf .progress {
-    background-color: rgb(31, 30, 30);
-    margin: .5rem 0 1.2rem 0;
-    border-radius: 0;
-    height: .7rem;
-  }
-  
-  .skill-mf .progress .progress-bar {
-    height: .7rem;
-    background-color: #f8df1b;
+    font-family: 'Leckerli One', cursive;
   }
   .title-box-2 {
     margin-bottom: 3rem;
@@ -85,7 +73,7 @@ html,body{
         height: 100%;  
         /* Center and scale the image nicely */
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat:repeat;
         background-size: cover;
     width:100%;
     /* display:flex;  */
@@ -100,7 +88,7 @@ html,body{
 .mosaiqueTable p{
   padding-top: 30px;
   text-align: center;
-  color: #292929;
+  color: #000000;
 }
 .JoinMe{
           background-color: rgb(53, 53, 53);
@@ -123,7 +111,7 @@ html,body{
   position: relative;
   padding: 0 30px;
   margin-bottom: 30px;
-  border-left: 1px solid #bdbdbd
+  border-left: 1px solid #000000
 }
 
 .stepper .step:last-of-type {
@@ -159,22 +147,9 @@ html,body{
 text-align: center;
 color: #1b1b1b;
 }
-.section-quaternary{
-
-  text-align: center;
-  width: 100%;
-}
-.section-quaternary a{
-  text-size-adjust: 2.5rem;
-  text-transform: uppercase;
-	background: linear-gradient(to right, #ffee00 0%, #047fd1 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-} 
-
 #about{
   margin-top: 40px;
-  color: #e0e0e0;
+  color: #ffffff;
 }
 .flex-center {
   width: 100%;
@@ -216,9 +191,6 @@ button{
   border-color: aliceblue;
   background-color: aliceblue;
 }
-span{
-  color: rgb(255, 255, 255);
-}
 .loading_wrap{
   position:fixed; 
   height:100%; 
@@ -226,4 +198,12 @@ span{
   overflow:hidden; 
   top:0; 
   left:0;
+}
+.display-4, nav, .title-left{
+  font-family: 'Leckerli One', cursive;
+}
+.display-4{
+  background: linear-gradient(to right, #887f71 0%, #033bb4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

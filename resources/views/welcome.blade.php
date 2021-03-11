@@ -10,16 +10,13 @@
   <!-- Bootstrap CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/project.scss') }}" rel="text/plain">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script defer src="{{asset('js/fontawesome-free-5.15.2-web/css/all.css')}}"></script>
+  <script defer src="{{asset('js/fontawesome-free-5.15.2-web/js/all.js')}}"></script>
   <script src="{{ asset('js/jquery-3.6.0.min.js')}}"></script>
-  <script src="{{ asset('js/style.js')}}"></script>
-
 </head>
 
 <body>
 </script>
-<div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0;'>Loading, please wait.</div>
   <nav class="navbar navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -46,7 +43,7 @@
   </nav>
   <div class="bg2">
     <div class="bg1">
-      <H1 class="display-2">Welcome to my Portfolio</H1>
+      <h1 class="display-2">Welcome to my Portfolio</h1>
       <p class="top_p">Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br>
         This is the summary of all my Projects and skills I do and learn.<br>
         I give also all infomation about my career.<br>
@@ -76,7 +73,6 @@
       </ul>
     </div>
   </div>
-  <div id='loading_wrap'>Loading, please wait.</div>
 </body>
 
 </html>
