@@ -64,7 +64,9 @@
                 </div>
                 <div class="skill-mf">
                   <p class="title-s">Programing language:</p>
-                  <p>HTML/CSS, JS,PHP(symfony/Laravel), C,SQL,</p>
+                  <p>HTML/CSS, JS,PHP(symfony/Laravel), C,SQL</p>
+                  <p class="title-s">Programing skill:</p>
+                  <p>Linux,git</p>
                   <p class="title-s">language:</p>
                   <p>fluent english</p>
                 </div>
